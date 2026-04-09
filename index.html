@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esporte Conecta </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/menu.js" defer></script>
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo"><img src="./img/Logo-removebg-preview.png" alt="Logo"></a>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="departamentos.html">Departamentos</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-text-container">
+        <h1 class="hero-title">Bem-vindo(a)!</h1>
+        <p class="hero-subtitle">A <strong class="highlight-text">maior</strong> página de mídia esportiva do <span class="highlight-text">Brasil</span>.<br>
+          <span class="highlight-text">Transforme</span> seu presente e seu futuro!
+        </p>
+      </div>
+      <div class="img-halter">
+        <img src="./img/Foto peso NavBar azul.svg" alt="Pessoa com halteres">
+      </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+      <h2 class="section-title">Quem somos?</h2>
+      <div class="about-content">
+        <img src="./img/foto - quem somos azul.svg" alt="Pessoa levantando peso">
+        <div class="about-text">
+          <p>A <span class="highlight-text">Esporte Conecta</span> é uma plataforma esportiva com o objetivo de mudar a qualidade de vida das pessoas através do esporte.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalogo-section">
+      <h2 class="section-title">Matérias</h2>
+      <div class="catalogo-grid">
+        <div class="catalogo-item"><img src="./img/Artes Marciais.svg" alt="Artes Marciais"><div class="overlay"><h3>Artes Marciais</h3></div></div>
+        <div class="catalogo-item"><img src="./img/Natação.svg" alt="Natação"><div class="overlay"><h3>Natação</h3></div></div>
+        <div class="catalogo-item"><img src="./img/Musculação.svg" alt="Musculação"><div class="overlay"><h3>Musculação</h3></div></div>
+        <div class="catalogo-item"><img src="./img/Basquete.svg" alt="Basquete"><div class="overlay"><h3>Basquete</h3></div></div>
+        <div class="catalogo-item"><img src="./img/Volêi.svg" alt="Vôlei"><div class="overlay"><h3>Vôlei</h3></div></div>
+        <div class="catalogo-item"><img src="./img/Futebol.svg" alt="Futebol"><div class="overlay"><h3>Futebol</h3></div></div>
+      </div>
+    </section>
+
+    <section class="equipe-section">
+      <h2 class="section-title">Conheça nossa equipe</h2>
+      <div class="equipe-content">
+        <div class="equipe-image-container">
+          <img src="./img/Foto equipe azul.svg" alt="Foto da Equipe">
+        </div>
+        <div class="equipe-text-container">
+          <p>Nosso projeto foi estruturado em cinco departamentos, cada um com um papel essencial para o desenvolvimento e sucesso da iniciativa.</p>
+          <p>Clique e conheça mais:</p>
+          <div class="botoes-depar">
+            <ul class="departamentos-list">
+              <li><a class="departamento-btn" href="departamentos.html#pesquisa">Pesquisa</a></li>
+              <li><a class="departamento-btn" id="rh" href="departamentos.html#rh">R.H</a></li>
+              <li><a class="departamento-btn" href="departamentos.html#marketing">Marketing</a></li>
+              <li><a class="departamento-btn" href="departamentos.html#projetos">Projetos</a></li>
+              <li><a class="departamento-btn" id="ti" href="departamentos.html#ti">T.I</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="back-to-top-section">
+      <button class="btn btn-voltar" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Voltar para o topo</button>
+    </section>
+
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="./img/Logo-removebg-preview.png" alt="ESPORTE CONECTA Logo">
+      </div>
+      <div class="footer-social">
+        <h4>Redes Sociais</h4>
+        <p>Conheça melhor o projeto e nosso Instagram!</p>
+        <a href="https://www.instagram.com/esporteconecta_?igsh=MTdxb2I2eHdzM24zYQ==" target="_blank" class="instagram-link">
+          <i class="fab fa-instagram"></i> esporteconecta_
+        </a>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; ESPORTE CONECTA | TODOS OS DIREITOS RESERVADOS</p>
+  </footer>
+
+</body>
+</html>
